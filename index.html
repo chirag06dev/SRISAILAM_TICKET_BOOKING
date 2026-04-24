@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBMS 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links-left">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#checklist">Checklist</a>
+                <a href="#gallery">Gallery</a>
+            </div>
+            
+            <div class="logo-center">
+                <div class="logo-text-block">
+                    <h1 class="logo-title">SBMS 2026</h1>
+                    <p class="logo-subtitle">SHREE BHRAMARAMBA SAMETHA MALLIKARJUNA SWAMY</p>
+                </div>
+            </div>
+
+            <div class="nav-right"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <img src="shiva_lingam.png" alt="Shiva Lingam" class="hero-image" ondblclick="openAdminLogin()">
+            <h1 class="hero-headline">Shree Shreeshaila<br>Paadayaatre <span class="year-highlight">2026</span></h1>
+            <p class="hero-subtext">Sacred Steps to Srisailam: A Journey of Devotion and faith</p>
+            <button class="hero-main-btn" onclick="openModal()">Book your seat</button>
+        </div>
+    </section>
+
+    <section id="about" class="content-section white-bg">
+        <div class="container">
+            <h2>The Divine Journey</h2>
+            <div class="text-block">
+                <p>Mahashivaratri and Ugadi are among the most sacred and cherished festivals in the Hindu tradition. Every year, during these auspicious occasions, thousands of ardent devotees of Lord Mallikarjuna embark on a spiritual journey to Srisailam on foot, traversing the dense forests of the Nallamala range in Andhra Pradesh to seek the divine darshan of Goddess Bhramaramba and Lord Mallikarjuna Swamy.</p>
+
+                <p>Lakhs of devotees undertake this sacred <em>paadayatra</em> from Kurnool and other regions of Andhra Pradesh, as well as from neighboring states such as Karnataka and Maharashtra. Some pilgrims begin their journey from their own homes, walking extraordinary distances of nearly 600–700 kilometers over a span of 10–12 days. It is estimated that nearly three lakh devotees pass through the Atmakur–Nallamala forest corridor each year between January and April.</p>
+
+                <p>Along the way, pilgrims visit several revered Shaiva centers, including the historic stone steps believed to have been constructed in 1326 CE by the Reddy king Prolaya Vema Reddy. Devotees offer prayers at numerous temples en route, deepening their spiritual experience before finally reaching Srisailam.</p>
+
+                <p>Pilgrims of all ages—from young children to elders in their seventies—brave the rugged terrain of the Nallamala hills, covering a 45-kilometer forest stretch. The trek typically spans 12 to 48 hours, depending on the pace of the yatris, with rest taken wherever possible along the route. The journey culminates at the hilltop, where the magnificent Kailasa Dwara stands as a gateway to divine grace.</p>
+
+                <p>This ancient tradition of trekking to the sacred abode of Lord Mallikarjuna has been faithfully practiced for over 400 years, symbolizing unwavering devotion, endurance, and spiritual unity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="checklist" class="content-section">
+        <div class="container">
+            <h2>Important Health Readiness Check for Paadayatris</h2>
+            <div class="text-block">
+                <p>The Shreeshail <em>paadayatra</em> through the Nallamala forests is <strong>not an easy journey</strong>. The trek spans approximately <strong>46 kilometers</strong> and takes <strong>12–14 hours</strong>, often under hot and dry conditions, with limited water points—especially in the latter half of the route.</p>
+                
+                <p>This demanding pilgrimage can be physically exhausting, particularly for those who are not accustomed to long-distance walking or trekking. Certain sections of the trail are also <strong>risky</strong>, notably the ascent of the <strong>first and last peaks</strong>, which must be navigated slowly and with great care.</p>
+                
+                <p>Please note that there is <strong>no U-turn option</strong> once the <em>paadayatra</em> begins. Pilgrims must be prepared to complete the entire route without interruption. Assistance along the way is minimal, as fellow yatris are also focused on completing their own journey.</p>
+                
+                <p>There have been several instances of pilgrims joining the trek without assessing their health conditions beforehand. As a result, both first-time and even experienced yatris have struggled to complete the <em>paadayatra</em>. Therefore, if your current health does not adequately support this level of physical exertion, we strongly advise you to <strong>reconsider your plan</strong> and avoid putting unnecessary strain on your body.</p>
+                
+                <p>At least <strong>10 days prior to the yatra</strong>, ensure that all vital health parameters—such as blood pressure, blood sugar, cholesterol levels, and heart rate—are within normal limits. It is highly recommended to consult your <strong>family physician</strong> and obtain medical clearance before registering for the <em>paadayatra</em>. A proper health screening and professional medical advice are essential.</p>
+
+                <h3>Preparation Guidelines</h3>
+                <ul class="guidelines-list">
+                    <li>Begin training <strong>at least one month in advance</strong> with regular long walks.</li>
+                    <li>Start with <strong>5 km walks</strong> on weekends and gradually increase the distance.</li>
+                    <li>Aim to complete <strong>one or two 15 km stretches</strong>, which will help build endurance.</li>
+                    <li>Remember, the Shreeshail trek is a true test of physical stamina, mental resilience, and energy management under the hot sun. Training your mind is just as important as training your body.</li>
+                    <li>Ensure your <strong>toenails are trimmed and rounded</strong> at least a week in advance to prevent discomfort during long walks.</li>
+                    <li>In the last <strong>2–3 days before the trek</strong>, consume foods that suit your body and provide energy without upsetting your stomach.</li>
+                    <li>Get <strong>adequate rest and sound sleep</strong> on the night before your journey.</li>
+                    <li>If possible, plan leave on <strong>Friday (first day of the paadayatra)</strong> and <strong>Monday</strong> to allow time for recovery after completing this divine and spiritually uplifting journey.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="content-section">
+        <div class="container" style="max-width: 1000px;">
+            <h2>Yatra Memories</h2>
+            <p style="text-align:center; color:#666; margin-bottom:40px;">Glimpses of the divine path and devotion.</p>
+            <div class="gallery-grid">
+                <img src="gallery1.jpg" alt="Yatra 1" class="gallery-img">
+                <img src="gallery2.jpg" alt="Yatra 2" class="gallery-img">
+                <img src="gallery3.jpg" alt="Yatra 3" class="gallery-img">
+                <img src="gallery5.jpg" alt="Yatra 5" class="gallery-img">
+                <img src="gallery6.jpg" alt="Yatra 6" class="gallery-img">
+                <img src="gallery7.jpg" alt="Yatra 7" class="gallery-img">
+                <img src="gallery8.jpg" alt="Yatra 8" class="gallery-img">
+                <img src="gallery9.jpg" alt="Yatra 9" class="gallery-img">
+                <img src="gallery10.jpg" alt="Yatra 10" class="gallery-img">
+                <img src="gallery11.jpg" alt="Yatra 11" class="gallery-img">
+                <img src="gallery12.jpg" alt="Yatra 12" class="gallery-img">
+                <img src="gallery13.jpg" alt="Yatra 13" class="gallery-img">
+                <img src="gallery14.jpg" alt="Yatra 14" class="gallery-img">
+                <img src="gallery15.jpg" alt="Yatra 15" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <div id="booking-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-step-indicator">STEP <span id="step-number">1</span> OF 3</div>
+                <span class="close-modal" onclick="closeModal()">&times;</span>
+            </div>
+            
+            <div id="step-seats" class="step-view">
+                <h2 class="modal-title">Begin Your Yatra</h2>
+                <p class="modal-desc">How many seats would you like to book?</p>
+                
+                <div class="seat-selector-container">
+                    <div class="seat-option selected" onclick="selectSeat(1, this)">1</div>
+                    <div class="seat-option" onclick="selectSeat(2, this)">2</div>
+                    <div class="seat-option" onclick="selectSeat(3, this)">3</div>
+                    <div class="seat-option" onclick="selectSeat(4, this)">4</div>
+                    <div class="seat-option" onclick="selectSeat(5, this)">5</div>
+                </div>
+                <input type="hidden" id="seat-count" value="1">
+                <button class="primary-btn black-btn" onclick="startBooking()">Next</button>
+            </div>
+
+            <div id="passenger-steps-container"></div>
+
+            <div id="step-payment" class="step-view hidden">
+                <h2 class="modal-title" style="text-align: center;">Complete Payment</h2>
+                <p class="modal-desc" style="text-align: center;">Scan the QR code below.</p>
+                
+                <div class="payment-card">
+                    <div id="bangalore-payee-select" class="form-group hidden" style="width: 100%; max-width: 280px; margin: 0 auto 20px;">
+                        <label class="field-label" style="text-align:center;">I will pay through:</label>
+                        <select id="payee-dropdown" onchange="updateBangalorePayee(this.value)">
+                            <option value="" disabled selected>Select Name</option>
+                            <option value="BASAVARAJ">BASAVARAJ R YADWAD</option>
+                            <option value="VENKAT">VENKAT S</option>
+                            <option value="SHIVASHANKAR">SHIVASHANKAR KURADAGI</option>
+                        </select>
+                    </div>
+
+                    <div id="payment-details-wrapper" class="hidden">
+                        <h3 id="pay-to-name-large" class="payee-large-text">Pay to: ...</h3>
+                        
+                        <div class="qr-container">
+                            <img id="payment-qr" src="" alt="QR Code" class="qr-image">
+                        </div>
+                        
+                        <div class="upi-copy-box" onclick="copyUPI()">
+                            <span id="upi-id-display" class="upi-text">...</span>
+                            <span class="copy-btn-text">COPY</span>
+                        </div>
+                        <div id="copy-toast" class="copy-toast hidden">Copied!</div>
+                    </div>
+
+                    <div class="upload-area">
+                        <div class="file-upload-wrapper" id="upload-wrapper">
+                            <span class="file-upload-text" id="file-text">Tap to Upload Screenshot</span>
+                            <input type="file" id="payment-screenshot" accept="image/*" class="file-upload-input" onchange="handleFileSelect(this)">
+                        </div>
+                    </div>
+                </div>
+                <button class="submit-btn green-btn" onclick="submitBooking()">Confirm Payment & Book</button>
+            </div>
+
+            <div id="success-screen" class="step-view hidden"></div>
+        </div>
+    </div>
+
+    <div id="admin-dashboard" class="admin-overlay hidden">
+        <div class="admin-container">
+            <div class="admin-top-bar">
+                <h2 class="admin-title">Admin Dashboard</h2>
+                <button class="admin-btn red" onclick="closeAdmin()">Logout</button>
+            </div>
+            <div class="admin-grid">
+                <div class="admin-card"><h3>Total Booked</h3><div id="demo-stats" class="stats-content">Loading...</div></div>
+                <div class="admin-card"><h3>Bus Status</h3><div id="bus-stats" class="stats-content">Loading...</div></div>
+            </div>
+            <div class="admin-grid manifests-grid">
+                <div class="admin-card">
+                    <div class="card-header"><h4 style="color:#FF3B30">BANGALORE</h4><button class="admin-small-btn" onclick="downloadExcel('bangalore')">Excel</button></div>
+                    <div class="table-container"><table id="table-bangalore"><thead><tr><th>Name</th><th>Phone</th><th>Pickup</th></tr></thead><tbody></tbody></table></div>
+                </div>
+                <div class="admin-card">
+                    <div class="card-header"><h4 style="color:#007AFF">BELAGAVI</h4><button class="admin-small-btn" onclick="downloadExcel('belagavi')">Excel</button></div>
+                    <div class="table-container"><table id="table-belagavi"><thead><tr><th>Name</th><th>Phone</th><th>Pickup</th></tr></thead><tbody></tbody></table></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <datalist id="past-participants"></datalist>
+    <script src="script.js"></script>
+</body>
+</html>
