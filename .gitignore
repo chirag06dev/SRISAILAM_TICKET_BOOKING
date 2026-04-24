@@ -1,0 +1,22 @@
+# Node & tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Build / temp
+dist/
+build/
+.env
+
+# Misc
+*.log
